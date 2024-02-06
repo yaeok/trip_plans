@@ -11,7 +11,7 @@ const ItemCard = (props: ItemCardProps) => {
       className='max-w-sm rounded overflow-hidden shadow-lg cursor-pointer'
       onClick={props.onClick}
     >
-      {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
+      <img className='w-full object-cover' src='/img/card-top.jpg' alt='' />
       <div className='px-6 py-4'>
         <div className='font-bold text-xl mb-2'>{props.title}</div>
         <p className='text-gray-700 text-base'>
